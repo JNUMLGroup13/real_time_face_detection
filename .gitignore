@@ -1,3 +1,8 @@
 .DS_Store
 .vscode
 facial-keypoints-detection/
+*.jpg
+__MACOSX/*
+*.h5
+*.pkl
+*.pyc
