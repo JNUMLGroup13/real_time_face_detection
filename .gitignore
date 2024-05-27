@@ -6,3 +6,4 @@ __MACOSX/*
 *.h5
 *.pkl
 *.pyc
+*.pdf
