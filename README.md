@@ -1,10 +1,11 @@
-# Kaggle的入门预测竞赛题
-## Facial Keypoints Detection 面部关键点检测
+# CNN模型定义
 
-*请解压训练数据包facial-keypoints-detection.zip*
+## 参考：https://thinkingneuron.com/face-recognition-using-deep-learning-cnn-in-python/
 
-此任务的目的是预测人脸图像上的关键点位置，可以在多个应用程序中用作构建块，例如：
-- 跟踪图像和视频中的人脸
-- 分析面部表情
-- 检测畸形面部体征以进行医学诊断
-- 生物识别/人脸识别
+# 运行
+
+trainModel.py 训练模型
+test.py 运行人脸监测
+getMyFace.py 拍照保存人脸数据
+myFace 数据集
+face_model.h5 训练出来的模型
