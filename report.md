@@ -54,8 +54,11 @@ classifier.add(Dense(OutputNeurons, activation='softmax'))
 classifier.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 ```
 
-<!-- 模型的数据维度变换过程:
-![计算数据维度可视化](image-2.png) -->
+模型的数据维度变换过程:
+<!-- ![计算数据维度可视化](image-2.png) -->
+<!-- ![计算数据维度可视化](iamge-3.png) -->
+![计算数据维度可视化](image-5.png)
+![计算数据维度可视化](image-6.png)
 ### 2.3 模型训练
 使用训练集训练模型，并在验证集上评估模型性能：
 
@@ -76,6 +79,10 @@ classifier.save('face_model.h5')
 3. **性能评估**：记录训练集和验证集的准确率和损失值。
 
 ## 4. 实验结果及分析
+实验结果过程图:
+![实验过程](image-3.png)
+![alt text](image-4.png)
+
 训练过程中模型在验证集和训练集上的准确率和损失值如下：
 - **训练集准确率**：46% -> 54% -> 47% -> 94% -> 97% -> 95%
 - **验证集准确率**：48% -> 90% -> 97% -> 86%
