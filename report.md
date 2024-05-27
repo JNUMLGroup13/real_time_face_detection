@@ -54,8 +54,8 @@ classifier.add(Dense(OutputNeurons, activation='softmax'))
 classifier.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 ```
 
-模型的数据维度变换过程:
-![计算数据维度可视化](image-2.png)
+<!-- 模型的数据维度变换过程:
+![计算数据维度可视化](image-2.png) -->
 ### 2.3 模型训练
 使用训练集训练模型，并在验证集上评估模型性能：
 
